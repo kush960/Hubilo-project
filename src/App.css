@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Imported;
+  src: url(./font/HelveticaNeueMedium.otf);
+}
+
+#edit {
+  font-family: Imported;
+}
+
+@font-face {
+  font-family: Importeda;
+  src: url(./font/PlusJakartaSans-SemiBold.ttf);
+}
+#texter {
+  font-family: Importeda;
+}
+
+@font-face {
+  font-family: Importedau;
+  src: url(./font/PlusJakartaSans-Bold.ttf);
+}
+#tt2 {
+  font-family: Importedau;
+}
+
+@font-face {
+  font-family: Imported2;
+  src: url(./font/PlusJakartaSans-Regular.ttf);
+}
+
+#texter1{
+  font-family: Imported2;
+}
+.css-4gdydi-MuiStack-root{
+  margin-top: 10px !important;
+}
+ 
+@font-face {
+  font-family: Importend3;
+  src: url(./font/PlusJakartaSans-Medium.ttf);
+}
+
+#bbtn{
+  font-family: Importned3 !important;
+}
+.css-eydqou-MuiPaper-root-MuiDrawer-paper {
+  border-radius: 10px 0px 0px 10px !important;
+ 
+}
+.css-gsjzcg{
+  padding-top: 8px !important;
+}
+.css-12u2pw0-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 12px !important;
+}
+.css-1phk0v3-MuiStack-root {
+  margin-top: 0px !important;
+}
+.css-ccegzh-MuiButtonBase-root-MuiButton-root{
+  box-shadow: none !important;
+}
+.css-j7bola-MuiButtonBase-root-MuiButton-root{
+  margin-left: 4px !important;
+}
+.App-header {
+  background-color: #46484c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#outlined-search {
+  width: 100%;  
+  padding: 6px;
+}
+
+/* Mobile specific styles */
+@media (max-width: 600px) {
+  .App-header {
+    font-size: 12px;
+  }
+
+  #outlined-search {
+    width: 100%;
+  }
+
+  .sideBar {
+    width: 100vw;
+    border-radius: 10px 0px 0px 10px; /* Border radius for mobile */
+    background-color: white; /* Ensure the background color matches the sidebar */
+  }
+
+  .MuiDrawer-paper {
+    width: 100vw !important; /* Full width drawer for mobile */
+  }
+}
+
+/* Tablet specific styles */
+@media (max-width: 900px) {
+  .App-header {
+    font-size: 14px;
+  }
+
+  #outlined-search {
+    width: 100%;
+  }
+
+  .sideBar {
+    width: 450px;
+    border-radius: 10px 0px 0px 10px; /* Border radius for tablet */
+    background-color: white; /* Ensure the background color matches the sidebar */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 900px) {
+  .sideBar {
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+  }
+}
